@@ -81,7 +81,9 @@ Copy your old database (data.db) to the new application folder before you start 
 </table>
 
 Building from source: [How to build from source](docs/guides/how_to_build.md) <br>
-If you're on linux and the app wont open it's probably an opengl dependency issue that I haven't fixed yet, for now build from source using above instructions.
+If you're on linux:
+1. If you use `AppImageLauncher` to manage your AppImages, make sure to add the entire extracted directory to the "Additional directories to watch" list under the `appimagelauncherd` tab.
+2. If the app wont open it's probably an opengl dependency issue that I haven't fixed yet, for now build from source using above instructions.
 
 ## Features
 
